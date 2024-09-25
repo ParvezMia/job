@@ -3,7 +3,7 @@
 @section('content')
     <!-- ====== Hero Section Start -->
     <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ asset('image/service_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/service_bg.jpg') }}') center / cover no-repeat;">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full text-center">
@@ -125,17 +125,17 @@
                     <div class="flex items-center -mx-3 sm:-mx-4">
                         <div class="w-full px-3 sm:px-4 xl:w-1/2">
                             <div class="py-3 sm:py-4">
-                                <img src="https://treeservicedenverllc.com/wp-content/uploads/2023/11/IMG-1164.jpg"
+                                <img  loading="lazy"    loading="lazy"   src="https://treeservicedenverllc.com/wp-content/uploads/2023/11/IMG-1164.jpg"
                                     alt="" class="w-full rounded-2xl">
                             </div>
                             <div class="py-3 sm:py-4">
-                                <img src="https://treeservicedenverllc.com/wp-content/uploads/elementor/thumbs/IMG-0916-qra70gxg1cbv1uc24mx8ymd9319wv4puji748qd078.jpg"
+                                <img  loading="lazy"    loading="lazy"   src="https://treeservicedenverllc.com/wp-content/uploads/elementor/thumbs/IMG-0916-qra70gxg1cbv1uc24mx8ymd9319wv4puji748qd078.jpg"
                                     alt="" class="w-full rounded-2xl">
                             </div>
                         </div>
                         <div class="w-full px-3 sm:px-4 xl:w-1/2">
                             <div class="relative z-10 my-4">
-                                <img src="https://treeservicedenverllc.com/wp-content/uploads/2023/04/Emergency-Tree-Service-Denver-1024x576.jpg"
+                                <img  loading="lazy"    loading="lazy"   src="https://treeservicedenverllc.com/wp-content/uploads/2023/04/Emergency-Tree-Service-Denver-1024x576.jpg"
                                     alt="" class="w-full rounded-2xl">
                                 <span class="absolute -right-7 -bottom-7 z-[-1]">
                                     <svg width="134" height="106" viewBox="0 0 134 106" fill="none"
@@ -337,7 +337,7 @@
         <div class="container mx-auto px-4 py-12">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="image/feature_1.jpg" alt="Tree Inspection" class="w-full h-48 object-cover">
+                    <img  loading="lazy"    loading="lazy"   src="resources/image/feature_1.jpg" alt="Tree Inspection" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -354,7 +354,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="image/feature_2.jpg" alt="Tree Removal" class="w-full h-48 object-cover">
+                    <img  loading="lazy"    loading="lazy"   src="resources/image/feature_2.jpg" alt="Tree Removal" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -372,7 +372,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="image/feature_3.jpg" alt="Tree Trimming" class="w-full h-48 object-cover">
+                    <img  loading="lazy"    loading="lazy"   src="resources/image/feature_3.jpg" alt="Tree Trimming" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -388,7 +388,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="image/feature_4.jpg" alt="Stump Grinding" class="w-full h-48 object-cover">
+                    <img  loading="lazy"    loading="lazy"   src="resources/image/feature_4.jpg" alt="Stump Grinding" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -404,7 +404,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="image/feature_5.jpg" alt="Emergency Service" class="w-full h-48 object-cover">
+                    <img  loading="lazy"    loading="lazy"   src="resources/image/feature_5.jpg" alt="Emergency Service" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -423,7 +423,7 @@
     </section>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('image/steps_bg.jpg') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('resources/image/steps_bg.jpg') center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>

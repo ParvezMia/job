@@ -3,7 +3,7 @@
 @section('content')
     <!-- ====== Hero Section Start -->
     <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url({{ asset('image/hero.jpg') }}) center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url({{ Vite::asset('resources/image/hero.jpg') }}) center / cover no-repeat;">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full text-center">
@@ -125,15 +125,18 @@
                     <div class="flex items-center -mx-3 sm:-mx-4">
                         <div class="w-full px-3 sm:px-4 xl:w-1/2">
                             <div class="py-3 sm:py-4">
-                                <img src="{{ asset('image/about1.jpg') }}" alt="" class="w-full rounded-2xl">
+                                <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/about1.jpg') }}"
+                                    alt="" class="w-full rounded-2xl">
                             </div>
                             <div class="py-3 sm:py-4">
-                                <img src="{{ asset('image/about2.jpg') }}" alt="" class="w-full rounded-2xl">
+                                <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/about2.jpg') }}"
+                                    alt="" class="w-full rounded-2xl">
                             </div>
                         </div>
                         <div class="w-full px-3 sm:px-4 xl:w-1/2">
                             <div class="relative z-10 my-4">
-                                <img src="{{ asset('image/about3.jpg') }}" alt="" class="w-full rounded-2xl">
+                                <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/about3.jpg') }}"
+                                    alt="" class="w-full rounded-2xl">
                                 <span class="absolute -right-7 -bottom-7 z-[-1]">
                                     <svg width="134" height="106" viewBox="0 0 134 106" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -334,7 +337,8 @@
         <div class="container mx-auto px-4 py-12">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="{{ asset('image/feature_1.jpg') }}" alt="Tree Inspection" class="w-full h-48 object-cover">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/feature_1.jpg') }}"
+                        alt="Tree Inspection" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -351,7 +355,8 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="{{ asset('image/feature_2.jpg') }}" alt="Tree Removal" class="w-full h-48 object-cover">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/feature_2.jpg') }}"
+                        alt="Tree Removal" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -369,7 +374,8 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="{{ asset('image/feature_3.jpg') }}" alt="Tree Trimming" class="w-full h-48 object-cover">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/feature_3.jpg') }}"
+                        alt="Tree Trimming" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -385,7 +391,8 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="{{ asset('image/feature_4.jpg') }}" alt="Stump Grinding" class="w-full h-48 object-cover">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/feature_4.jpg') }}"
+                        alt="Stump Grinding" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -401,8 +408,8 @@
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="{{ asset('image/feature_5.jpg') }}" alt="Emergency Service"
-                        class="w-full h-48 object-cover">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/feature_5.jpg') }}"
+                        alt="Emergency Service" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none"
@@ -421,7 +428,7 @@
     </section>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ asset('image/steps_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/steps_bg.jpg') }}') center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>
@@ -634,27 +641,36 @@
     </section>
     <!-- ====== Call To Action Section End -->
 
-    <!-- component -->
-    <section class="text-gray-600 body-font relative">
-        <div class="absolute inset-0 bg-gray-300">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d392661.4130065212!2d-104.8957246!3d39.7471239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7fbfa6842607%3A0xccaf5737e5619324!2sTree%20Service%20Denver!5e0!3m2!1sen!2sus!4v1696858527468!5m2!1sen!2sus"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="container px-5 py-24 mx-auto flex">
-            <div
-                class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-                <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">Our company's top
-                    priority is Care for Customer Satisfaction</h2>
-                <p class="leading-relaxed mb-5 text-gray-600">We at Tree Service Denver LLC are dedicated to providing
-                    our customers with the best tree service possible in the Colorado region. Our experienced team of
-                    professionals is both fully licensed and insured, ensuring that your job will be done safely and
-                    efficiently. We guarantee 100% satisfaction with every project we complete, so you can rest assured
-                    knowing that your trees will be taken care of. Plus, as a locally owned tree company, you can trust
-                    us to provide reliable and trustworthy service to every request. So when it comes to tree service in
-                    Denver, look no further than Tree Service Denver LLC! </p>
 
+    <section class="relative bg-blue-50 pt-[200px] pb-[60px] lg:pt-[150px]">
+        <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
+                <div class="img-box h-full">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d392661.4130065212!2d-104.8957246!3d39.7471239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c7fbfa6842607%3A0xccaf5737e5619324!2sTree%20Service%20Denver!5e0!3m2!1sen!2sus!4v1696858527468!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="container px-5 py-24 mx-auto flex">
+                    <div
+                        class="bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                        <h2 class="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">Our company's top
+                            priority is Care for Customer Satisfaction</h2>
+                        <p class="leading-relaxed mb-5 text-gray-600">We at Tree Service Denver LLC are dedicated to
+                            providing
+                            our customers with the best tree service possible in the Colorado region. Our experienced team
+                            of
+                            professionals is both fully licensed and insured, ensuring that your job will be done safely and
+                            efficiently. We guarantee 100% satisfaction with every project we complete, so you can rest
+                            assured
+                            knowing that your trees will be taken care of. Plus, as a locally owned tree company, you can
+                            trust
+                            us to provide reliable and trustworthy service to every request. So when it comes to tree
+                            service in
+                            Denver, look no further than Tree Service Denver LLC! </p>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>

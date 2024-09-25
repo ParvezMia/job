@@ -3,7 +3,7 @@
 @section('content')
     <!-- ====== Hero Section Start -->
     <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ asset('image/service_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/service_bg.jpg') }}') center / cover no-repeat;">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full text-center">

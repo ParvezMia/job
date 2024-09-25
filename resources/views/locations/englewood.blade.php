@@ -3,7 +3,7 @@
 @section('content')
     <!-- ====== Hero Section Start -->
     <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ asset('image/service_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/service_bg.jpg') }}') center / cover no-repeat;">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full text-center">
@@ -37,7 +37,7 @@
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                 <div class="img-box h-full">
-                    <img src="{{ asset('image/service_bg.jpg') }}" alt="About Us tailwind page"
+                    <img  loading="lazy"    loading="lazy"   src="{{ Vite::asset('resources/image/service_bg.jpg') }}" alt="About Us tailwind page"
                         class="w-full h-full object-cover object-center">
                 </div>
                 <div class="lg:pl-[100px] flex flex-col justify-center">
@@ -367,7 +367,7 @@
     </div>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ asset('image/steps_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/steps_bg.jpg') }}') center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>
@@ -662,7 +662,7 @@
             <h2 class="text-4xl font-bold mb-4 text-center">How Valuable is Tree Service?
             </h2>
             <p class="text-lg">
-                Tree service is an incredibly valuable asset to any home or business owner. As a homeowner, I know how
+                Tree service is an incredibly valuable Vite::asset to any home or business owner. As a homeowner, I know how
                 important it is to keep my trees healthy and trim back any overgrown branches or foliage. With Supreme Tree
                 Service, I can trust that they will provide reliable and timely service. They arrive on schedule and
                 complete projects quickly without sacrificing quality. Here are just some of the benefits of using their

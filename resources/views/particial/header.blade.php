@@ -6,8 +6,10 @@
         <div class="relative flex items-center justify-between -mx-4">
             <div class="max-w-full px-4 w-60">
                 <a href="{{ route('home') }}" class="block w-full py-5">
-                    <img src="{{ asset('image/logo.jpg') }}" alt="logo" class="block w-full" style="width: 110px;" />
-                    <img src="{{ asset('image/logo.jpg') }}" alt="logo" class="hidden w-full" />
+                    <img src="{{ Vite::asset('resources/image/logo.jpg') }}" alt="logo" class="block w-full"
+                        style="width: 110px;" loading="lazy" />
+                    <img src="{{ Vite::asset('resources/image/logo.jpg') }}" alt="logo" class="hidden w-full"
+                        loading="lazy" />
                 </a>
             </div>
             <div class="flex items-center justify-between w-full px-4">

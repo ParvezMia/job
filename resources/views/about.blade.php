@@ -5,7 +5,7 @@
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative ">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                 <div class="img-box h-full">
-                    <img src="{{ asset('image/about.jpg') }}" alt="About Us tailwind page"
+                    <img  loading="lazy"    loading="lazy"   src="{{ Vite::asset('resources/image/about.jpg') }}" alt="About Us tailwind page"
                         class="w-full h-full object-cover object-center">
                 </div>
                 <div class="lg:pl-[100px] flex items-center">
