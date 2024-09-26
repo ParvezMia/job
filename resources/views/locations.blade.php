@@ -8,7 +8,7 @@
                 <div class="w-full text-center">
                     <div class="hero-content grid justify-center">
                         <h1
-                            class="mb-5 text-4xl font-bold !leading-[1.208] text-base sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                            class="mb-5 text-4xl font-bold !leading-[1.208] xs:text-[22px] sm:text-[42px] lg:text-[40px] xl:text-5xl">
                             Our Service Areas
                         </h1>
                         <h2 class="mb-8 max-w-[480px] text-2xl text-dark ">

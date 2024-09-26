@@ -9,7 +9,7 @@
                 <div class="w-full text-center">
                     <div class="hero-content grid justify-center">
                         <h1
-                            class="mb-5 text-4xl font-bold !leading-[1.208] text-base sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                            class="mb-5 text-4xl font-bold !leading-[1.208] xs:text-[22px] sm:text-[42px] lg:text-[40px] xl:text-5xl">
                             Stump Removal Denver
                         </h1>
                         <h2 class="mb-8 mx-auto max-w-[900px] text-2xl text-dark ">
@@ -28,8 +28,8 @@
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative">
             <div class="grid grid-cols-1  gap-9">
                 <div class="img-box h-full">
-                    <img  loading="lazy"    loading="lazy"   src="{{ Vite::asset('resources/image/service_bg.jpg') }}" alt="About Us tailwind page"
-                        class="w-full h-full object-cover object-center">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
+                        alt="About Us tailwind page" class="w-full h-full object-cover object-center">
                 </div>
                 <div class="lg:pl-[100px] flex flex-col justify-center">
                     <div class="data w-full">

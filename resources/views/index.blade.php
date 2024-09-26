@@ -3,36 +3,42 @@
 @section('content')
     <!-- ====== Hero Section Start -->
     <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url({{ Vite::asset('resources/image/hero.jpg') }}) center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffe8 0%, #023047a6 100%), url({{ Vite::asset('resources/image/hero.jpg') }}) center / cover no-repeat;">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full text-center">
                     <div class="hero-content grid justify-center">
                         <h1
-                            class="mb-5 text-4xl font-bold !leading-[1.208] text-base sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                            class="mb-5 text-4xl font-bold !leading-[1.208] xs:text-[22px] sm:text-[42px] lg:text-[40px] xl:text-5xl">
                             Tree Service Denver <br>
                             #1 Voted Tree Company In Denver Co
                         </h1>
-                        <h2 class="mb-8 mx-auto max-w-[900px] text-2xl text-dark ">
+                        <h2 class="mb-8 mx-auto max-w-[900px] sm:text-2xl text-dark xs:text-[20px]">
                             Tree Service Denver LLC is a reliable and professional tree service provider in Denver, CO.
                             We are committed to providing our customers with trustworthy, reliable, and professional
                             tree services. Our experienced staff are dedicated to providing quality services for all
-                            your tree service needs. Contact us today for a free consultation! </h2>
+                            your tree service needs. Contact us today for a free consultation!
+                        </h2>
                         <ul class="flex flex-wrap items-center  mx-auto">
                             <li>
                                 <a href="tel:720-807-2785"
-                                    class="https://treeservicedenverllc.com/wp-content/uploads/2023/04/384532686_1229429607751085_6032948851310107453_n-e1696378486684.jpg flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                                    class="md:flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                     <i class="fas fa-phone"></i> &nbsp;
                                     Call Now
                                 </a>
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+    <a href="tel:720-807-2785"
+        class="fixed flex bottom-0 items-center justify-center w-full p-4 font-bold text-white bg-green-500 rounded-md hover:bg-green-600 transition-colors duration-300 sm:hidden xm:block">
+        <i class="fas fa-phone"></i> &nbsp;
+        Call Now
+    </a>
+    <!-- ====== Hero Section End -->
     <!-- ====== Hero Section End -->
     <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100">
         <div class="container mx-auto">
@@ -323,7 +329,7 @@
                             and efficiently, without sacrificing quality. So if you need any kind of tree service in
                             Denver, don’t hesitate to contact us for all your needs.
                         </p>
-                        <a href="javascript:void(0)"
+                        <a href="{{ route('about') }}"
                             class=" flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                             Learn More
                         </a>
@@ -350,7 +356,7 @@
                         <h3 class="text-lg font-semibold mb-2">Tree Inspection</h3>
                         <p class="text-sm text-gray-600 mb-4">Our experts provide tree inspection services in Denver.
                         </p>
-                        <a href="#" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
+                        <a href="{{ route('service') }}" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
                     </div>
                 </div>
 
@@ -369,7 +375,7 @@
                         </div>
                         <h3 class="text-lg font-semibold mb-2">Tree Removal</h3>
                         <p class="text-sm text-gray-600 mb-4">We offer all kinds of tree removal services</p>
-                        <a href="#" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
+                        <a href="{{ route('service') }}" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
                     </div>
                 </div>
 
@@ -386,7 +392,7 @@
                         </div>
                         <h3 class="text-lg font-semibold mb-2">Tree Trimming</h3>
                         <p class="text-sm text-gray-600 mb-4">Need Tree Trimming service? Let us help you.</p>
-                        <a href="#" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
+                        <a href="{{ route('service') }}" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
                     </div>
                 </div>
 
@@ -403,7 +409,7 @@
                         </div>
                         <h3 class="text-lg font-semibold mb-2">Stump Grinding</h3>
                         <p class="text-sm text-gray-600 mb-4">Our company provides Stump grinding services.</p>
-                        <a href="#" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
+                        <a href="{{ route('service') }}" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
                     </div>
                 </div>
 
@@ -420,7 +426,7 @@
                         </div>
                         <h3 class="text-lg font-semibold mb-2">Emergency Service</h3>
                         <p class="text-sm text-gray-600 mb-4">We provide emergency Tree services All around Denver.</p>
-                        <a href="#" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
+                        <a href="{{ route('service') }}" class="text-blue-500 text-sm font-medium">LEARN MORE</a>
                     </div>
                 </div>
             </div>

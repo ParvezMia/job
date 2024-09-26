@@ -1,12 +1,29 @@
 @extends('layout')
 
 @section('content')
+    <!-- ====== Hero Section Start -->
+    <div class="relative bg-white pt-[160px] pb-[110px] lg:pt-[150px]"
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/service_bg.jpg') }}') center / cover no-repeat;">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center -mx-4">
+                <div class="w-full text-center">
+                    <div class="hero-content grid justify-center">
+                        <h1
+                            class="mb-5 text-4xl font-bold !leading-[1.208] xs:text-[22px] sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                            About Us
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====== Hero Section End -->
     <section class="relative bg-gray-100 pt-[200px] pb-[60px] lg:pt-[150px]">
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative ">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                 <div class="img-box h-full">
-                    <img  loading="lazy"    loading="lazy"   src="{{ Vite::asset('resources/image/about.jpg') }}" alt="About Us tailwind page"
-                        class="w-full h-full object-cover object-center">
+                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/about.jpg') }}"
+                        alt="About Us tailwind page" class="w-full h-full object-cover object-center">
                 </div>
                 <div class="lg:pl-[100px] flex items-center">
                     <div class="data w-full">

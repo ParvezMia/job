@@ -17,9 +17,12 @@
                     <button @click="navbarOpen = !navbarOpen" :class="navbarOpen && 'navbarTogglerActive'"
                         id="navbarToggler"
                         class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
-                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
+                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-whtie"
+                            style="background: white"></span>
+                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-whtie"
+                            style="background: white"></span>
+                        <span class="relative my-[6px] block h-[2px] w-[30px] bg-whtie"
+                            style="background: white"></span>
                     </button>
                     <nav x-transition :class="!navbarOpen && 'hidden'" id="navbarCollapse"
                         class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 px-6 shadow transition-all lg:static lg:bg-transparent lg:dark:bg-transparent lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11">

@@ -17,6 +17,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <title>{{ env('APP_NAME') }}</title>
+
     <script src="https://cdn.tailwindcss.com" defer loading="lazy"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" async
