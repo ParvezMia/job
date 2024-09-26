@@ -61,10 +61,10 @@
                     </nav>
                 </div>
                 <div class="justify-end hidden pr-16 sm:flex lg:pr-0">
-                    <a href="{{ route('login') }}"
+                    {{-- <a href="{{ route('login') }}"
                         class="flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Login
-                    </a>
+                    </a> --}}
                     <!-- <a href="javascript:void(0)"
                                                 class="py-3 text-base font-medium text-white rounded-md bg-green-500 px-7 hover:bg-blue-dark">
                                                 Sign Up
