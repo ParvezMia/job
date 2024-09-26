@@ -42,82 +42,99 @@
     <!-- ====== Hero Section End -->
     <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-gray-100">
         <div class="container mx-auto">
-            <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4">
-                    <div class="mx-auto mb-12 max-w-[890px] text-center lg:mb-20">
-                        <span class="text-green-500 mb-2 block text-lg font-semibold">
-                            Our Services
-                        </span>
-                        <h2 class="text-dark mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
-                            #1 Denver Tree Service Provider | Reliable Tree Removal In Denver
-                        </h2>
-                        <p class="text-body-color text-base">
-                            Tree Service Denver LLC is a locally owned business offering the best-rated tree service in
-                            Denver, CO. Our experienced team is fully licensed and insured to provide quality services
-                            you can trust. We prioritize safety and customer satisfaction, guaranteeing 100%
-                            satisfaction and value with each project. From trimming and pruning to complete removal, our
-                            professional team can handle all of your tree care needs. Our core values are trustworthy,
-                            reliable, and professional service so that you can enjoy your outdoor space worry-free.
-                            Contact Tree Service Denver LLC today for your free estimate!
-                        </p>
+            <div class="md:flex">
+                <div class=" md:w-2/3">
+                    <div class="-mx-4 flex flex-wrap">
+                        <div class="w-full px-4">
+                            <div class="mx-auto mb-12 max-w-[890px] text-center lg:mb-20">
+                                <span class="text-green-500 mb-2 block text-lg font-semibold">
+                                    Our Services
+                                </span>
+                                <h2 class="text-dark mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+                                    #1 Denver Tree Service Provider | Reliable Tree Removal In Denver
+                                </h2>
+                                <p class="text-body-color text-base">
+                                    Tree Service Denver LLC is a locally owned business offering the best-rated tree service
+                                    in
+                                    Denver, CO. Our experienced team is fully licensed and insured to provide quality
+                                    services
+                                    you can trust. We prioritize safety and customer satisfaction, guaranteeing 100%
+                                    satisfaction and value with each project. From trimming and pruning to complete removal,
+                                    our
+                                    professional team can handle all of your tree care needs. Our core values are
+                                    trustworthy,
+                                    reliable, and professional service so that you can enjoy your outdoor space worry-free.
+                                    Contact Tree Service Denver LLC today for your free estimate!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mx-4 flex flex-wrap">
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/2">
+                            <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
+                                    <i class="fas fa-users-cog text-2xl text-white"></i>
+                                </div>
+                                <h4 class="text-dark mb-[14px] text-2xl font-semibold">
+                                    Professional team
+                                </h4>
+                                <p class="text-body-color">
+                                    In addition to providing tree services, we have experts with decades of experience. They
+                                    can
+                                    ensure your property is not damaged while providing complex tree services.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/2">
+                            <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
+                                    <i class="fas fa-tools text-2xl text-white"></i>
+                                </div>
+                                <h4 class="text-dark mb-[14px] text-2xl font-semibold">
+                                    Customer Support
+                                </h4>
+                                <p class="text-body-color">
+                                    In order to ensure quality services and a smooth customer experience, we have a
+                                    dedicated
+                                    customer support team.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/2">
+                            <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
+                                    <i class="far fa-money-bill-alt text-2xl text-white"></i>
+                                </div>
+                                <h4 class="text-dark mb-[14px] text-2xl font-semibold">
+                                    Affordable &amp; reliable
+                                </h4>
+                                <p class="text-body-color">
+                                    We have been providing affordable services to our customers for years, so please check
+                                    the
+                                    feedback of our previous customers to see how well we have done for them.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-full px-4 md:w-1/2 lg:w-1/2">
+                            <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
+                                <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
+                                    <i class="fas fa-chess-queen text-2xl text-white"></i>
+                                </div>
+                                <h4 class="text-dark mb-[14px] text-2xl font-semibold">
+                                    One-stop solution
+                                </h4>
+                                <p class="text-body-color">
+                                    You can rely on our team to provide every kind of tree service imaginable. We have heavy
+                                    and
+                                    small tools for all kinds of jobs. Just let us know what you need and we'll do it.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="-mx-4 flex flex-wrap">
-                <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-                    <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
-                        <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
-                            <i class="fas fa-users-cog text-2xl text-white"></i>
-                        </div>
-                        <h4 class="text-dark mb-[14px] text-2xl font-semibold">
-                            Professional team
-                        </h4>
-                        <p class="text-body-color">
-                            In addition to providing tree services, we have experts with decades of experience. They can
-                            ensure your property is not damaged while providing complex tree services.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-                    <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
-                        <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
-                            <i class="fas fa-tools text-2xl text-white"></i>
-                        </div>
-                        <h4 class="text-dark mb-[14px] text-2xl font-semibold">
-                            Customer Support
-                        </h4>
-                        <p class="text-body-color">
-                            In order to ensure quality services and a smooth customer experience, we have a dedicated
-                            customer support team.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-                    <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
-                        <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
-                            <i class="far fa-money-bill-alt text-2xl text-white"></i>
-                        </div>
-                        <h4 class="text-dark mb-[14px] text-2xl font-semibold">
-                            Affordable &amp; reliable
-                        </h4>
-                        <p class="text-body-color">
-                            We have been providing affordable services to our customers for years, so please check the
-                            feedback of our previous customers to see how well we have done for them.
-                        </p>
-                    </div>
-                </div>
-                <div class="w-full px-4 md:w-1/2 lg:w-1/2">
-                    <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10">
-                        <div class="bg-green-500 flex h-[40px] w-[40px] items-center justify-center rounded-md">
-                            <i class="fas fa-chess-queen text-2xl text-white"></i>
-                        </div>
-                        <h4 class="text-dark mb-[14px] text-2xl font-semibold">
-                            One-stop solution
-                        </h4>
-                        <p class="text-body-color">
-                            You can rely on our team to provide every kind of tree service imaginable. We have heavy and
-                            small tools for all kinds of jobs. Just let us know what you need and we'll do it.
-                        </p>
+                <div class="w-full md:w-1/3 px-4 md:sticky md:top-24 self-start">
+                    <div class="h-full" style="min-height: 800px;">
+                        @include('particial.instant-quote-form')
                     </div>
                 </div>
             </div>

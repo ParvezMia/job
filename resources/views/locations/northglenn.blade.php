@@ -34,49 +34,65 @@
 
     <section class="relative bg-gray-100 pt-[200px] pb-[60px] lg:pt-[150px]">
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
-                <div class="img-box h-full">
-                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
-                        alt="About Us tailwind page" class="w-full h-full object-cover object-center">
-                </div>
-                <div class="lg:pl-[100px] flex flex-col justify-center">
-                    <div class="data w-full">
-                        <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                            Best Tree Service Provider In Northglenn, CO
-                        </h2>
-                        <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
-                            Supreme Tree Service offers professional tree care services in Northglenn, CO. Our experienced
-                            arborists provide quality workmanship and attention to detail on every project. Our
-                            comprehensive services include tree trimming, removal, stump grinding, and emergency tree
-                            services. We use precision pruning techniques and safe tree removal practices to ensure
-                            exceptional results for our customers. We prioritize customer satisfaction and offer reliable
-                            and timely service. Trust Supreme Tree Service for all your tree care needs and rely on us to
-                            get the job done right and on time.
-                        </p>
-                        <div class="space-y-3">
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
-                                    Experts</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree Services</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely Service</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
-                                    Guaranteed</span>
+            <div class="md:flex">
+                <div class=" md:w-2/3">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <div class="img-box h-full">
+                            <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
+                                alt="About Us tailwind page" class="w-full h-full object-cover object-center">
+                        </div>
+                        <div class="flex flex-col justify-center">
+                            <div class="data w-full">
+                                <h2
+                                    class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+                                    Best Tree Service Provider In Northglenn, CO
+                                </h2>
+                                <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
+                                    Supreme Tree Service offers professional tree care services in Northglenn, CO. Our
+                                    experienced
+                                    arborists provide quality workmanship and attention to detail on every project. Our
+                                    comprehensive services include tree trimming, removal, stump grinding, and emergency
+                                    tree
+                                    services. We use precision pruning techniques and safe tree removal practices to ensure
+                                    exceptional results for our customers. We prioritize customer satisfaction and offer
+                                    reliable
+                                    and timely service. Trust Supreme Tree Service for all your tree care needs and rely on
+                                    us to
+                                    get the job done right and on time.
+                                </p>
+                                <div class="space-y-3">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
+                                            Experts</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree
+                                            Services</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely
+                                            Service</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
+                                            Guaranteed</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 md:sticky md:top-24 self-start">
+                    <div class="h-full" style="min-height: 800px;">
+                        @include('particial.instant-quote-form')
                     </div>
                 </div>
             </div>
@@ -367,7 +383,7 @@
     </div>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('resources/image/steps_bg.jpg') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/steps_bg.jpg') }}')  center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>

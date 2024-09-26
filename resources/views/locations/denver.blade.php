@@ -431,7 +431,7 @@
     </section>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('resources/image/steps_bg.jpg') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/steps_bg.jpg') }}')  center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>

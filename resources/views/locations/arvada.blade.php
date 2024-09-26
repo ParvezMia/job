@@ -42,58 +42,72 @@
 
     <section class="relative bg-gray-100 pt-[200px] pb-[60px] lg:pt-[150px]">
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
-                <div class="img-box h-full">
-                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
-                        alt="About Us tailwind page" class="w-full h-full object-cover object-center">
-                </div>
-                <div class="lg:pl-[100px] flex flex-col justify-center">
-                    <div class="data w-full">
-                        <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                            Best Tree Service Provider In
-                            Arvada, CO
-                        </h2>
-                        <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
-                            We at Tree Service Denver LLC are here to provide you with top-notch tree service. Our
-                            reliable and responsive team of experts can help you with all your arborist needs, from
-                            pruning and trimming trees to removing dead or dangerous branches. We use sustainable
-                            practices to ensure that our work is not only efficient but also environmentally friendly.
-                            With us, you can rest assured that your trees will be in good hands!
-                            <br><br>
-                            We think customers should choose Tree Service Denver LLC for their tree service needs
-                            because they offer reliable, responsive, and sustainable services. They have certified
-                            arborists and trained technicians who prioritize safety and ensure quality workmanship with
-                            the latest techniques and equipment. Plus, they provide comprehensive services like tree
-                            planting, fertilization, disease diagnosis, insect control, and more! And most importantly,
-                            our customer satisfaction is guaranteed with competitive prices and prompt, courteous
-                            service.
-                        </p>
-                        <div class="space-y-3">
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
-                                    Experts</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree
-                                    Services</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely
-                                    Service</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
-                                    Guaranteed</span>
+            <div class="md:flex">
+                <div class=" md:w-2/3">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <div class="img-box h-full">
+                            <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
+                                alt="About Us tailwind page" class="w-full h-full object-cover object-center">
+                        </div>
+                        <div class="flex flex-col justify-center">
+                            <div class="data w-full">
+                                <h2
+                                    class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+                                    Best Tree Service Provider In
+                                    Arvada, CO
+                                </h2>
+                                <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
+                                    We at Tree Service Denver LLC are here to provide you with top-notch tree service. Our
+                                    reliable and responsive team of experts can help you with all your arborist needs, from
+                                    pruning and trimming trees to removing dead or dangerous branches. We use sustainable
+                                    practices to ensure that our work is not only efficient but also environmentally
+                                    friendly.
+                                    With us, you can rest assured that your trees will be in good hands!
+                                    <br><br>
+                                    We think customers should choose Tree Service Denver LLC for their tree service needs
+                                    because they offer reliable, responsive, and sustainable services. They have certified
+                                    arborists and trained technicians who prioritize safety and ensure quality workmanship
+                                    with
+                                    the latest techniques and equipment. Plus, they provide comprehensive services like tree
+                                    planting, fertilization, disease diagnosis, insect control, and more! And most
+                                    importantly,
+                                    our customer satisfaction is guaranteed with competitive prices and prompt, courteous
+                                    service.
+                                </p>
+                                <div class="space-y-3">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
+                                            Experts</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree
+                                            Services</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely
+                                            Service</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
+                                            Guaranteed</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 md:sticky md:top-24 self-start">
+                    <div class="h-full" style="min-height: 800px;">
+                        @include('particial.instant-quote-form')
                     </div>
                 </div>
             </div>

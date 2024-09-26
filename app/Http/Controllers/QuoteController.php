@@ -35,7 +35,7 @@ class QuoteController extends Controller
         ->position('y', 'top')
         ->addSuccess('Your quote request has been submitted successfully.');
 
-        return redirect()->route('contact-us');
+        return redirect()->back();
     }
 
 }

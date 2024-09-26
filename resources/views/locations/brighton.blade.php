@@ -40,58 +40,74 @@
 
     <section class="relative bg-gray-100 pt-[200px] pb-[60px] lg:pt-[150px]">
         <div class="mx-auto container px-4 sm:px-6 lg:px-8 relative">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
-                <div class="img-box h-full">
-                    <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
-                        alt="About Us tailwind page" class="w-full h-full object-cover object-center">
-                </div>
-                <div class="lg:pl-[100px] flex flex-col justify-center">
-                    <div class="data w-full">
-                        <h2 class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                            Best Tree Service Provider In Brighton, CO
-                        </h2>
-                        <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
-                            We at Tree Service Denver LLC are here to help you with all of your tree service needs. We
-                            understand that having a healthy, beautiful landscape is important and we’re committed to
-                            providing reliable, professional services that you can trust. Our team will work hard to
-                            ensure that all of your tree service requirements are met quickly and efficiently so you can
-                            enjoy the best possible results from our services.
-                            <br><br>
-                            We understand how important it is to have reliable, professional, and trustworthy tree
-                            service. That’s why we’re proud to offer top-quality tree care services at competitive
-                            prices. Our certified arborists and trained technicians use the latest techniques and
-                            equipment to deliver efficient, effective, and long-lasting results that you can trust. We
-                            prioritize safety, so you can rest assured that your trees will be in good hands with us.
-                            Plus, we guarantee customer satisfaction on every job! So if you need tree trimming,
-                            pruning, removal, stump grinding, or any other tree care service, give us a call – we’ll
-                            take care of everything for you.
-                        </p>
-                        <div class="space-y-3">
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
-                                    Experts</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree
-                                    Services</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely
-                                    Service</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
-                            </div>
-                            <div class="flex items-center">
-                                <i class="fas fa-tree text-green-500 mr-2"></i>
-                                <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
-                                    Guaranteed</span>
+            <div class="md:flex">
+                <div class=" md:w-2/3">
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <div class="img-box h-full">
+                            <img loading="lazy" loading="lazy" src="{{ Vite::asset('resources/image/service_bg.jpg') }}"
+                                alt="About Us tailwind page" class="w-full h-full object-cover object-center">
+                        </div>
+                        <div class="flex flex-col justify-center">
+                            <div class="data w-full">
+                                <h2
+                                    class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+                                    Best Tree Service Provider In Brighton, CO
+                                </h2>
+                                <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center mb-6">
+                                    We at Tree Service Denver LLC are here to help you with all of your tree service needs.
+                                    We
+                                    understand that having a healthy, beautiful landscape is important and we’re committed
+                                    to
+                                    providing reliable, professional services that you can trust. Our team will work hard to
+                                    ensure that all of your tree service requirements are met quickly and efficiently so you
+                                    can
+                                    enjoy the best possible results from our services.
+                                    <br><br>
+                                    We understand how important it is to have reliable, professional, and trustworthy tree
+                                    service. That’s why we’re proud to offer top-quality tree care services at competitive
+                                    prices. Our certified arborists and trained technicians use the latest techniques and
+                                    equipment to deliver efficient, effective, and long-lasting results that you can trust.
+                                    We
+                                    prioritize safety, so you can rest assured that your trees will be in good hands with
+                                    us.
+                                    Plus, we guarantee customer satisfaction on every job! So if you need tree trimming,
+                                    pruning, removal, stump grinding, or any other tree care service, give us a call – we’ll
+                                    take care of everything for you.
+                                </p>
+                                <div class="space-y-3">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Professional Tree Care
+                                            Experts</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Comprehensive Tree
+                                            Services</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Reliable & Timely
+                                            Service</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Quality Workmanship</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tree text-green-500 mr-2"></i>
+                                        <span class="font-normal text-xl leading-8 text-gray-500">Customer Satisfaction
+                                            Guaranteed</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 md:sticky md:top-24 self-start">
+                    <div class="h-full" style="min-height: 800px;">
+                        @include('particial.instant-quote-form')
                     </div>
                 </div>
             </div>
