@@ -26,6 +26,7 @@ Route::get('/service' , [HomeController::class, 'service'])->name('service');
 Route::get('/locations' , [HomeController::class, 'locations'])->name('locations');
 Route::get('/contact-us' , [HomeController::class, 'contactUs'])->name('contact-us');
 Route::post('/quote-request', [QuoteController::class, 'store'])->name('quote.store');
+Route::get('/get-a-free-estimate', [HomeController::class, 'freeEstimation'])->name('free-estimations');
 
 
 Route::prefix('locations')->group(function () {

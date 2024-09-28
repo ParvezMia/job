@@ -390,8 +390,7 @@
     </div>
 
     <div class="bg-image flex items-center justify-center"
-        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/st
-                                eps_bg.jpg') }}') center / cover no-repeat;">
+        style="background: radial-gradient(circle, #ffffffc0 0%, #023047 100%), url('{{ Vite::asset('resources/image/steps_bg.jpg') }}') center / cover no-repeat;">
         <div class="bg-black bg-opacity-50 w-full py-24">
             <div class="container mx-auto px-4">
                 <h2 class="text-4xl font-bold text-white text-center mb-12">Simple 3 Steps Process</h2>
@@ -750,7 +749,7 @@
                     </div>
                     <div class="w-full px-4 lg:w-1/2">
                         <div class="flex flex-wrap lg:justify-end">
-                            <a href="{{ route('contact-us') }}"
+                            <a href="{{ route('free-estimations') }}"
                                 class="inline-flex py-3 my-1 bg-green-200 font-medium text-dark transition rounded-md bg-secondary px-7 hover:bg-opacity-90">
                                 Get a Quote
                             </a>

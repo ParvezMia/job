@@ -726,7 +726,7 @@
                     </div>
                     <div class="w-full px-4 lg:w-1/2">
                         <div class="flex flex-wrap lg:justify-end">
-                            <a href="{{ route('contact-us') }}"
+                            <a href="{{ route('free-estimations') }}"
                                 class="inline-flex py-3 my-1 bg-green-200 font-medium text-dark transition rounded-md bg-secondary px-7 hover:bg-opacity-90">
                                 Get a Quote
                             </a>

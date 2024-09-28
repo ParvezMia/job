@@ -28,4 +28,8 @@ class HomeController extends Controller
     {
         return view('contact-us');
     }
+
+    public function freeEstimation() {
+        return view('free-estimation');
+    }
 }
