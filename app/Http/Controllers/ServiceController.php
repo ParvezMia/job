@@ -24,6 +24,6 @@ class ServiceController extends Controller
 
     public function treeRemoval()
     {
-        return view('services.tree-removal');
+        return view('services.tree-removal-denver');
     }
 }
